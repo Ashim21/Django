@@ -1,0 +1,28 @@
+Create django project
+django-admin startproject project_name  
+
+
+Create django app
+python manage.py startapp app_name
+
+Create superuser
+python manage.py createsuperuser
+
+Run migrations
+python manage.py makemigrations
+python manage.py migrate
+
+Run server
+python manage.py runserver
+
+Run server with custom port
+python manage.py runserver 8000
+
+Create Virtual Environment
+python -m venv .env
+
+Activate Virtual Environment    
+For cmd
+.env\Scripts\activate
+For Powershell
+.env\Scripts\Activate.ps1
